@@ -1,0 +1,110 @@
+
+Form1{}
+
+//Key Down
+
+If e.KeyCode = Keys.Escape Then
+Me.Close()
+End If
+
+
+//Mouse Down
+
+Form2.Show()
+Form2.Location = Cursor.Position
+Form2.Location = Form2.Location
+
+
+//Mouse Up
+
+Form2.Hide()
+Me.Hide()
+Dim bounds As Form2
+Dim screenshot As System.Drawing.Bitmap
+Dim graph As Graphics
+bounds = Form2
+screenshot = New System.Drawing.Bitmap(bounds.Width, bounds.Height, System.Drawing.Imaging.PixelFormat.Format32bppRgb)
+graph = Graphics.FromImage(screenshot)
+graph.CopyFromScreen(Form2.Bounds.X, Form2.Bounds.Y, 0, 0, bounds.Size, CopyPixelOperation.SourceCopy)
+Form2.BackgroundImage = screenshot
+Dim sPath As New SaveFileDialog
+sPath.Filter = "Image (*.png)|*,*"
+sPath.ShowDialog()
+Dim bmp As Bitmap
+Try
+bmp = Form2.BackgroundImage
+bmp.Save(sPath.FileName + ".png")
+Catch ex As Exception
+MsgBox(ex.Message)
+End Try
+Me.Close()
+
+
+//Mouse Move
+
+Form2.Size = Cursor.Position - Form2.Location
+
+
+
+Form2{}
+
+
+//Size Change
+
+
+Label2.Text = Me.Size.Height
+Label3.Text = Me.Size.Width
+Label1.Text = "Height :" + Label2.Text + " Width :" + Label3.Text
+
+
+
+
+
+
+
+
+///GID+
+~~~~~~~~~~~~~~~~~
+GDI+ is the way to draw shapes, fonts, images or generally anything graphic in 
+Visual Basic .NET. ... Microsoft's documentation usually states that 
+Microsoft Windows GDI+ is an API for C/C++ programmers into the Windows OS. 
+But GDI+ also includes the namespaces used in VB.NET for software-based graphics programming.
+
+System.Drawing
+~~~~~~~~~~~~~~~~~~~~
+The System.Drawing namespace provides access to GDI+ basic graphics functionality. 
+More advanced functionality is provided in the System.Drawing.Drawing2D, 
+System.Drawing.Imaging, and System.Drawing.Text namespaces.
+
+
+Format32bppRgb	
+~~~~~~~~~~~~~~~~~~
+Specifies that the format is 32 bits per pixel; 8 bits each are used for the red, green, 
+and blue components. The remaining 8 bits are not used.
+
+Bitmap Class
+~~~~~~~~~~~~~~
+Encapsulates a GDI+ bitmap, which consists of the pixel data 
+for a graphics image and its attributes. A Bitmap is an object 
+used to work with images defined by pixel data.
+
+
+
+//CopyFromScreen 
+Public Sub CopyFromScreen (
+	sourceX As Integer,
+	sourceY As Integer,
+	destinationX As Integer,
+	destinationY As Integer,
+	blockRegionSize As Size,
+	copyPixelOperation As CopyPixelOperation
+)
+
+//Screen.PrimaryScreen
+For a single display system, the primary display is the only display.
+
+
+//Screen.PrimaryScreen.Bounds   As Rectangular
+A Rectangle, representing the bounds of the display.
+
+

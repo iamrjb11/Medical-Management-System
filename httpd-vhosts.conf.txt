@@ -1,0 +1,22 @@
+# Virtual Hosts
+#
+
+<VirtualHost *:80>
+	ServerName localhost
+	DocumentRoot c:/wamp64/www
+	<Directory  "c:/wamp64/www/">
+		Options +Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Require local
+	</Directory>
+	
+    #######add this part to your apache server httpd-vhosts.conf file to enable routing#########	 
+    ###project folder in the www folder	
+    <Directory "c:/wamp64/www/2017_education">
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+    </Directory>
+   ########added by KAZI MASUDUL ALAM##########
+</VirtualHost>
+#

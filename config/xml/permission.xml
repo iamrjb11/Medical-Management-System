@@ -1,0 +1,481 @@
+<permissions>
+
+
+	<!-- DISCUSSION CATEGORY Category -->
+	<permission>
+		<id>DISCUSSION_CAT_C</id>
+		<name>DISCUSSION_CAT_C</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_R</id>
+		<name>DISCUSSION_CAT_R</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_U</id>
+		<name>DISCUSSION_CAT_U</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_D</id>
+		<name>DISCUSSION_CAT_D</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<!-- DISCUSSION Category -->
+	<permission>
+		<id>DISCUSSION_C</id>
+		<name>DISCUSSION_C</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_R</id>
+		<name>DISCUSSION_R</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_U</id>
+		<name>DISCUSSION_U</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_D</id>
+		<name>DISCUSSION_D</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+
+    <!-- DISCUSSION_COMMENT Category -->
+	<permission>
+		<id>DISCUSSION_COMMENT_C</id>
+		<name>DISCUSSION_COMMENT_C</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_R</id>
+		<name>DISCUSSION_COMMENT_R</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_U</id>
+		<name>DISCUSSION_COMMENT_U</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_D</id>
+		<name>DISCUSSION_COMMENT_D</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<!-- DISCIPLINE Category -->
+	<permission>
+		<id>DISCIPLINE_C</id>
+		<name>DISCIPLINE_C</name>
+		<category>DISCIPLINE</category>
+	</permission>
+	
+	<permission>
+		<id>DISCIPLINE_R</id>
+		<name>DISCIPLINE_R</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<permission>
+		<id>DISCIPLINE_U</id>
+		<name>DISCIPLINE_U</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<permission>
+		<id>DISCIPLINE_D</id>
+		<name>DISCIPLINE_D</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<!--Hall Category 
+
+	<permission>
+		<id>HALL_C</id>
+		<name>HALL_C</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_R</id>
+		<name>HALL_R</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_U</id>
+		<name>HALL_U</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_D</id>
+		<name>HALL_D</name>
+		<category>HALL</category>
+	</permission> -->
+
+
+
+
+	<!-- PERMISSION Category -->
+	<permission>
+		<id>PERMISSION_C</id>
+		<name>PERMISSION_C</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_R</id>
+		<name>PERMISSION_R</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_U</id>
+		<name>PERMISSION_U</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_D</id>
+		<name>PERMISSION_D</name>
+		<category>PERMISSION</category>
+	</permission>
+
+
+	<!-- POSITION Category -->
+	<permission>
+		<id>POSITION_C</id>
+		<name>POSITION_C</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_R</id>
+		<name>POSITION_R</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_U</id>
+		<name>POSITION_U</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_D</id>
+		<name>POSITION_D</name>
+		<category>POSITION</category>
+	</permission>
+
+
+
+	<!-- ROLE Category -->
+	<permission>
+		<id>ROLE_C</id>
+		<name>ROLE_C</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_R</id>
+		<name>ROLE_R</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_U</id>
+		<name>ROLE_U</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_D</id>
+		<name>ROLE_D</name>
+		<category>ROLE</category>
+	</permission>
+
+
+	<!-- SCHOOL Category -->
+	<permission>
+		<id>SCHOOL_C</id>
+		<name>SCHOOL_C</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_R</id>
+		<name>SCHOOL_R</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_U</id>
+		<name>SCHOOL_U</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_D</id>
+		<name>SCHOOL_D</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	
+	<!-- TERM Category -->
+	<permission>
+		<id>TERM_C</id>
+		<name>TERM_C</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_R</id>
+		<name>TERM_R</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_U</id>
+		<name>TERM_U</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_D</id>
+		<name>TERM_D</name>
+		<category>TERM</category>
+	</permission>
+
+
+	<!-- USER Category -->
+	<permission>
+		<id>USER_C</id>
+		<name>USER_C</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_R</id>
+		<name>USER_R</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_U</id>
+		<name>USER_U</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_D</id>
+		<name>USER_D</name>
+		<category>USER</category>
+	</permission>
+
+	<!-- Year Category -->
+	<permission>
+		<id>YEAR_C</id>
+		<name>YEAR_C</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_R</id>
+		<name>YEAR_R</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_U</id>
+		<name>YEAR_U</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_D</id>
+		<name>YEAR_D</name>
+		<category>YEAR</category>
+	</permission>	
+
+
+<!-- MEDICAL SERVICE MANAGEMENT -->
+	
+	<!-- Doctor -->
+	<permission>
+		<id>MEDICAL_DOCTOR_C</id>
+		<name>MEDICAL_DOCTOR_C</name>
+		<category>MEDICAL DOCTOR</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_DOCTOR_R</id>
+		<name>MEDICAL_DOCTOR_R</name>
+		<category>MEDICAL DOCTOR</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_DOCTOR_U</id>
+		<name>MEDICAL_DOCTOR_U</name>
+		<category>MEDICAL DOCTOR</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_DOCTOR_D</id>
+		<name>MEDICAL_DOCTOR_D</name>
+		<category>MEDICAL DOCTOR</category>
+	</permission>
+
+	<!-- Patient -->
+	<permission>
+		<id>MEDICAL_PATIENT_C</id>
+		<name>MEDICAL_PATIENT_C</name>
+		<category>MEDICAL PATIENT</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_PATIENT_R</id>
+		<name>MEDICAL_PATIENT_R</name>
+		<category>MEDICAL PATIENT</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_PATIENT_U</id>
+		<name>MEDICAL_PATIENT_U</name>
+		<category>MEDICAL PATIENT</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_PATIENT_D</id>
+		<name>MEDICAL_PATIENT_D</name>
+		<category>MEDICAL PATIENT</category>
+	</permission>
+
+	<!-- Nurse-->
+	<permission>
+		<id>MEDICAL_NURSE_C</id>
+		<name>MEDICAL_NURSE_C</name>
+		<category>MEDICAL NURSE</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_NURSE_R</id>
+		<name>MEDICAL_NURSE_R</name>
+		<category>MEDICAL NURSE</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_NURSE_U</id>
+		<name>MEDICAL_NURSE_U</name>
+		<category>MEDICAL NURSE</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_NURSE_D</id>
+		<name>MEDICAL_NURSE_D</name>
+		<category>MEDICAL NURSE</category>
+	</permission>
+
+	<!-- Staff -->
+	<permission>
+		<id>MEDICAL_STAFF_C</id>
+		<name>MEDICAL_STAFF_C</name>
+		<category>MEDICAL STAFF</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_STAFF_R</id>
+		<name>MEDICAL_STAFF_R</name>
+		<category>MEDICAL STAFF</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_STAFF_U</id>
+		<name>MEDICAL_STAFF_U</name>
+		<category>MEDICAL STAFF</category>
+	</permission>
+
+	<permission>
+		<id>MEDICAL_STAFF_D</id>
+		<name>MEDICAL_STAFF_D</name>
+		<category>MEDICAL STAFF</category>
+	</permission>
+
+
+	<permission>
+		<id>NEWS_TEACHER_C</id>
+		<name>NEWS_TEACHER_C</name>
+		<category>NEWS TEACHER</category>
+	</permission>
+	<permission>
+		<id>NEWS_TEACHER_R</id>
+		<name>NEWS_TEACHER_R</name>
+		<category>NEWS TEACHER</category>
+	</permission>
+	<permission>
+		<id>NEWS_TEACHER_U</id>
+		<name>NEWS_TEACHER_U</name>
+		<category>NEWS TEACHER</category>
+	</permission>
+	<permission>
+		<id>NEWS_TEACHER_D</id>
+		<name>NEWS_TEACHER_D</name>
+		<category>NEWS TEACHER</category>
+	</permission>
+
+	<permission>
+		<id>NEWS_STUDENT_CR_ACR_C</id>
+		<name>NEWS_STUDENT_CR_ACR_C</name>
+		<category>NEWS STUDENT CR ACR</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_CR_ACR_R</id>
+		<name>NEWS_STUDENT_CR_ACR_R</name>
+		<category>NEWS STUDENT CR ACR</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_CR_ACR_U</id>
+		<name>NEWS_STUDENT_CR_ACR_U</name>
+		<category>NEWS STUDENT CR ACR</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_CR_ACR_D</id>
+		<name>NEWS_STUDENT_CR_ACR_D</name>
+		<category>NEWS STUDENT CR ACR</category>
+	</permission>
+
+	<permission>
+		<id>NEWS_STUDENT_C</id>
+		<name>NEWS_STUDENT_C</name>
+		<category>NEWS STUDENT</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_R</id>
+		<name>NEWS_STUDENT_R</name>
+		<category>NEWS STUDENT</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_U</id>
+		<name>NEWS_STUDENT_U</name>
+		<category>NEWS STUDENT</category>
+	</permission>
+	<permission>
+		<id>NEWS_STUDENT_D</id>
+		<name>NEWS_STUDENT_D</name>
+		<category>NEWS STUDENT</category>
+	</permission>
+</permissions>

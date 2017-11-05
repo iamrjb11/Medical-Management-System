@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; } 
+
+#header
+{
+	text-align:center;
+	width:100%;
+	height:50px;
+	background:#00a2d1;
+	color:#f9f9f9;
+	font-weight:bolder;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:35px;
+}
+
+table,td
+{
+	width:40%;
+	padding:15px;
+	border:solid #e1e1e1 1px;
+	font-family:Verdana, Geneva, sans-serif;
+	border-collapse:collapse;
+}
+#dataview
+{
+	margin-top:100px;
+	position:relative;
+	bottom:50px;
+}
+#dataview input
+{
+	width:100%;
+	height:40px;
+	border:0; outline:0;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-left:10px;
+}
+#dataview button
+{
+	width:200px;
+	height:40px;
+	border:0; outline:0;
+	font-family:Verdana, Geneva, sans-serif;
+	padding-left:10px;
+}
+
+
+footer { margin-top:50px; position:relative; bottom:50px; font-family:Verdana, Geneva, sans-serif; }

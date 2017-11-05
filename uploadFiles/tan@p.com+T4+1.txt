@@ -1,0 +1,4 @@
+youtube-dl --link--  #single video
+youtube-dl -a file-list #list of links
+youtube-dl --playlist_link-- #to download playlist
+ wget -A pdf,zip,PDF,ZIP -r -l 2 -n
